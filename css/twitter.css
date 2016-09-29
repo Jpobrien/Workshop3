@@ -1,0 +1,59 @@
+.t-search {
+  width: 495px !important;
+}
+
+.t-headleft span{
+  padding-right: 5px;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.tweet_row hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* The color of `hr` is set by its top border color.
+  Yeah, it's weird. */
+  border-top: 1px solid lightgray;
+}
+
+.icons li{
+  padding-top: 10px;
+  padding-right: 50px;
+}
+
+.icons2 li{
+  padding-right: 25px;
+}
+
+.navbar form button,
+.navbar form button:hover,
+.navbar form button:focus,
+.navbar form button:active,
+.navbar form button:active:focus {
+  color: black;
+/* Make it a bit wider. */
+  width: 50px;
+/* Make the border's curve more gentle */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+/* Apply a light-grey border color. You can specify colors as names, rgb
+triplets, or hex numbers. */
+  border-left: white;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+/* Removes halo and shadow on button when clicked. */
+  outline: none;
+  box-shadow: none;
+  padding-right: 10px;
+}
+
+.search {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: white;
+}
